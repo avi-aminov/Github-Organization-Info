@@ -76,7 +76,7 @@ const App = () => {
                         handleChange={handleChange} 
                         handleClick={handleClick}
                     />
-                    <Results data={repo} heandleContributors={getContributors}/>
+                    <Results data={repo} handleContributors={getContributors}/>
                 </>
         }
         </>

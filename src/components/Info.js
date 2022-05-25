@@ -30,7 +30,7 @@ const Info = ({avatar, name, url, back}) => {
             <button 
                 type="button" className="btn" 
                 onClick={back}>
-                <i class="ri-arrow-left-line"></i> Back
+                <i class="ri-arrow-left-line"> </i> Back
             </button>
 
             <div className="container">
@@ -53,6 +53,6 @@ const Info = ({avatar, name, url, back}) => {
             </div>
         </>
     );
-}
+};
 
 export default Info;

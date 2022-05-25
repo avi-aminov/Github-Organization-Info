@@ -1,7 +1,7 @@
 import React from 'react';
 import DataTable from 'react-data-table-component';
 
-const Results = ({data, heandleContributors}) => {
+const Results = ({data, handleContributors}) => {
 
     const columns = [
         {
@@ -30,10 +30,10 @@ const Results = ({data, heandleContributors}) => {
         return (
             <>
                 <a title='View' className="action-icon" target="_blank" href={row.html_url}>
-                    <i className="action-icon-ri ri-folder-open-line"></i>
+                    <i className="action-icon-ri ri-folder-open-line"> </i>
                 </a>
-                <span title='Info' className="action-icon info" onClick={heandleContributors(row.name)}>
-                    <i className="ri-information-line"></i>
+                <span title='Info' className="action-icon info" onClick={handleContributors(row.name)}>
+                    <i className="ri-information-line"> </i>
                 </span>
             </>
         );
@@ -48,6 +48,6 @@ const Results = ({data, heandleContributors}) => {
             pagination
         />
     );
-}
+};
 
 export default Results;

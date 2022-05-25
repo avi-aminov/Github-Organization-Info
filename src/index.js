@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 document.addEventListener( 'DOMContentLoaded', function() {
-    var element = document.getElementById( 'goi-app' );
+    const element = document.getElementById( 'goi-app' );
     if( typeof element !== 'undefined' && element !== null ) {
         ReactDOM.render( 
             <App />, element 

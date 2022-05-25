@@ -15,6 +15,6 @@ const Rearch = ({searchInput, handleChange, handleClick}) => {
             </button>
         </div>
     );
-}
+};
 
 export default Rearch;
