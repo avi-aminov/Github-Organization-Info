@@ -1,0 +1,58 @@
+#goi-app{
+    margin: 15px 30px 15px 0px;
+    background: #ffffff;
+}
+
+.info{
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
+
+.avatar {
+    max-width: 100px;
+}
+
+.action-icon{
+    text-decoration: none;
+    color: #000;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.sc-fLlhyt.ifOHjV{
+    display: block;
+}
+
+
+.details{
+    display: flex;
+    padding: 20px;
+}
+
+.personal-details{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.char-data{
+    max-width: 400px;
+    padding-bottom: 40px;
+}
+
+.btn{
+    cursor: pointer;
+    background: #c5bc37;
+    color: #0e1244;
+    border: 0;
+    padding: 7px 15px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#goi-app input[type=text] {
+    border: 2px solid #c5bc37;
+}
