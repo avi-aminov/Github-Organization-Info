@@ -1,6 +1,7 @@
-#goi-app{
+#goi-app {
     margin: 15px 30px 15px 0;
     background: #ffffff;
+    padding: 30px;
 }
 
 .info{
@@ -25,7 +26,6 @@
 .sc-fLlhyt.ifOHjV{
     display: block;
 }
-
 
 .details{
     display: flex;
